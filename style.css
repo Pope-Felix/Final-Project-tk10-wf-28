@@ -1,0 +1,93 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+header{
+  background:#35424a;
+  color: white;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:orange 3px solid;
+}
+header a {
+  color:white;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:18px;
+}
+header li{
+  float:left;
+  display: inline;
+  padding:0 20px 0 20px;
+}
+#branding{
+  float:left;
+}
+#branding h1{
+  margin:0%;
+}
+nav{
+  float:right;
+  margin-top:10px;
+}
+header .highlight, header .current a{
+  color:orange;
+  font-weight:bold;
+}
+#showcase{
+  min-height:700px;
+  background: url('computer.jpg') 35px;
+  color:red;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+#showcase h1{
+  margin-top: 100px;
+  font-size:55px;
+  margin-top:10px;
+}
+#showcase p{
+  font-size:20px;
+}
+.container{
+  width:80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+a:link {
+  color: #d62828;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #03045e;
+}
+
+a:visited {
+  color: #d62828; 
+}
+
+body {
+  background-color: #fefae0;
+  line-height: 1.2;
+  font-family:"Arial, Helvetic,sans-seriff"
+}
+
+footer {
+  text-align: center;
+  font-size: .8em;
+  font-family: roboto;
+  opacity: .7;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.button_1 {
+  background-color: #ffb703;
+  font-family: roboto;
+  font-weight: bold;
+}
